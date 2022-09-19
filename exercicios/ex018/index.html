@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: chartreuse;
+            margin: 0px;
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: chartreuse;
+            margin-right: 36px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            padding: 3px;
+        }
+
+        footer {
+            text-align: end;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping tags</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" target="_self" rel="next">About</a>
+            <a href="contact.html" target="_self" rel="next">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticia 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sunt omnis cupiditate porro! Quidem assumenda, repellendus itaque quae, culpa explicabo recusandae architecto reprehenderit voluptate beatae repudiandae accusantium maxime repellat nisi.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sunt omnis cupiditate porro! Quidem assumenda, repellendus itaque quae, culpa explicabo recusandae architecto reprehenderit voluptate beatae repudiandae accusantium maxime repellat nisi.</p>
+                <aside>
+                    <p>Artigo escrito por Fulano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Cristiano</p>
+    </footer>
+</body>
+</html>

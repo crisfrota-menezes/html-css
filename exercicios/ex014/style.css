@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #8CBA00, #5C7A00);
+}
+
+main {
+    background-color: #1d2700;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 13px hsla(75, 100%, 70%, 0.625);
+    width: 620px;
+    height: 620px;
+    padding: 10px;
+    margin: auto;
+    background-image: url(ney.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #BBFA00;
+    text-align: center;
+    text-shadow: 2px 2px 4px hsla(75, 100%, 75%, 0.725);
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #A8E000;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;   
+}
+
+footer {
+    text-align: end;
+    color: #A8E000;
+    font-size: 12px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}

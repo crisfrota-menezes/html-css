@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h1#primary {
+    color: white;
+    background-color: darkblue;
+}
+
+.basic {
+    color: rgb(139, 134, 0);
+}
+
+.regular {
+    color: rgb(61, 139, 64)
+}
+
+.complex {
+    color: rgb(225, 65, 65);
+}
+
+.mark {
+    background-color: rgba(255, 255, 0, 0.521);
+    font-weight: bold;
+}
+

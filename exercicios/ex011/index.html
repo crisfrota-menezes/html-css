@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Responsividade de imagem</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/600.png">
+        <source media="(max-width: 900px)" srcset="imagens/900.png">
+        <img src="imagens/1200.png" alt="Imagem de teste">
+    </picture>
+    <h1>Audio</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio.<a href="#" download="happy-mistake.mp3" type="audio/mpeg"></a></p>
+    </audio>
+    
+</body>
+</html>
