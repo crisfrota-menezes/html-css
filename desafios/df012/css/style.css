@@ -5,47 +5,60 @@
     padding: 0;
 }
 
+html, body {
+    min-height: 100vh;
+    background: darkgray;
+}
+
 header {
-    background: black;
-    min-height: 150px;
+    background-color: black;
+    color: white;
     text-align: center;
-    padding-top: 30px;
 }
 
 header > h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    color: white;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 
-header > h1 > a {
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
 
-header > h1 > a:hover {
+a:hover {
     color: antiquewhite;
+    text-decoration: underline;
 }
 
-header > p {
-    font-size: 1.2em;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: #000;
+}
+
+section.imagem {
+    background-color: rgb(73, 73, 73);
     color: white;
-    max-width: 550px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: auto;
-    padding-bottom: 20px;
 }
 
-main {
-    background: white;
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.250);
+    width: 225px;
 }
 
-main > section {
-    min-height: 400px;
-}
-
-main > section#bg1 {
+/*main > section#bg1 {
     background: url(../imagens/background001.jpg) no-repeat right bottom fixed;
     background-size: cover;
     min-height: 400px;
@@ -55,23 +68,11 @@ main > section#bg2 {
     background: url(../imagens/background002.jpg) no-repeat center fixed;
     background-size: cover;
     min-height: 400px;
-}
+}*/
 
 footer {
     background-color: #000;;
     color: white;
-    font-size: 0.8em;
     text-align: center;
-    padding: 5px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    color: antiquewhite;
+    padding: 10px;
 }
