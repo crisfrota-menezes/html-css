@@ -9,8 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
     />
     <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho()">
     <header>
       <h1>Meu Site</h1>
       <span
@@ -66,6 +67,11 @@
       function clickMenu() {
         if (menu.style.display === "block") menu.style.display = "none";
         else menu.style.display = "block";
+      }
+
+      function mudouTamanho() {
+        if (window.innerWidth >= 768) menu.style.display = "block";
+        else menu.style.display = "none";
       }
     </script>
   </body>
