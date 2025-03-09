@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media quare</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link rel="stylesheet" href="estilos/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <span
+        id="burguer"
+        class="material-symbols-outlined"
+        onclick="clickMenu()"
+      >
+        menu
+      </span>
+      <menu id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Images</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <article>
+        <h2>Testando</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit
+          voluptatum, eos ratione tempore magni qui explicabo? Velit
+          perspiciatis reprehenderit nulla doloribus fuga minus quae sed ut odio
+          tempore? Architecto. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Pariatur eius, cum vitae nostrum tempore,
+          asperiores, eum placeat hic inventore distinctio deleniti? Nostrum
+          voluptatibus facere illum impedit magni dolorem facilis deserunt!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet
+          veritatis facere reiciendis corrupti architecto odit, expedita minus
+          consectetur ipsa eos consequatur. Dolor quidem quaerat at dicta libero
+          repudiandae repellat?Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Fuga culpa tempora rem quis sunt suscipit.
+          Perspiciatis quod iure voluptas natus aut dolore deserunt quidem quae!
+          Officiis possimus quos delectus debitis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          nobis facere sed repellendus architecto nulla deserunt, fugiat,
+          debitis ut numquam minima suscipit rem dignissimos blanditiis maiores
+          officiis? Soluta, repellendus ipsum. Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Neque dicta aperiam tempore dignissimos
+          molestiae natus quas repellendus nesciunt earum omnis eos sed
+          molestias est hic, fuga et autem ratione ut!
+        </p>
+      </article>
+    </main>
+    <script>
+      function clickMenu() {
+        if (menu.style.display === "block") menu.style.display = "none";
+        else menu.style.display = "block";
+      }
+    </script>
+  </body>
+</html>
